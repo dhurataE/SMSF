@@ -52,9 +52,9 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/Pacienti.aspx">Pacientet</a></li>
-                         <li><a runat="server" href="~/Pacineti_II.aspx">Pacientet_II</a></li>
-                        <li><a runat="server" href="~/Contact">Repartet</a></li>
-                         <li><a runat="server" href="~/Contact">Stafi</a></li>
+                         <li><a runat="server" href="~/Stafi.aspx">Stafi</a></li>
+                        <li><a runat="server" href="~/Cookies_Session.aspx">C&S</a></li>
+                         
                     </ul>
                 </div>
             </div>

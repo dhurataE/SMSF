@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using SMS.Klasat;
+using System.Configuration;
 
 namespace SMS
 {
@@ -28,7 +29,15 @@ namespace SMS
             DataSet ds = obj.RunQuery("select * from fnPacienti()", "tblPacienti");
             GridView1.DataSource = ds;
             GridView1.DataBind();
-        }
+
+            //if (txtKerko.Text == "")
+            //{
+            //    ScriptManager.RegisterStartupScript(this, this.GetType(), Guid.NewGuid().ToString(),
+            //            "alert('Sheno ID e punetorit ne tekstboksin ID Punetori!!');", true);
+            //}
+            //else
+            //{ }
+            }
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
         {
 
