@@ -15,6 +15,10 @@ namespace SMS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Emri"] != null)
+            {
+                
+            }
             if (!Page.IsPostBack)
             {
                 Calendar1.Visible = true;

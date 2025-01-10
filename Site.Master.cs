@@ -11,9 +11,16 @@ namespace SMS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Perdoruesi"]!=null)
+            {
+                Label1.Text = "Mireserdhet " + Session["Perdoruesi"];
+            }
 
         }
-        public void kerko()
-        { }
+        protected void lbLogOff_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/LogIn.aspx");
+        }
+
     }
 }

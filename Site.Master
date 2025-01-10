@@ -53,7 +53,12 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/Pacienti.aspx">Pacientet</a></li>
                          <li><a runat="server" href="~/Stafi.aspx">Stafi</a></li>
-                        <li><a runat="server" href="~/Cookies_Session.aspx">C&S</a></li>
+                        <li><a runat="server" href="~/S_C.aspx">Cookies dhe Sessione</a></li>
+                       
+                   <li>  <asp:LinkButton runat="server" ID="lbLogOff" Text="Ckyqu" OnClick="lbLogOff_Click" style="color:whitesmoke"></asp:LinkButton> </li>
+                                   <li> <asp:Label runat="server" ID="Label1" style="color:whitesmoke"></asp:Label></li>
+
+
                          
                     </ul>
                 </div>
